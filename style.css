@@ -465,6 +465,53 @@ section:nth-child(even) {
 .badge-openai { background: #ecfeff; color: #0e7490; }
 .badge-google { background: #fff7ed; color: #c2410c; }
 .badge-anthropic { background: #fef2f2; color: #b91c1c; }
+.badge-finance { background: #eef2ff; color: #4338ca; }
+.badge-healthcare-proj { background: #ecfdf5; color: #047857; }
+.badge-agentic { background: #fdf4ff; color: #86198f; }
+.badge-finetune { background: #fff7ed; color: #9a3412; }
+.badge-responsible { background: #f0f9ff; color: #075985; }
+.badge-scheduled { background: #fef9c3; color: #854d0e; }
+.badge-review { background: #fff7ed; color: #9a3412; }
+
+/* ---- SKILLS ---- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.skill-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text-medium);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 50px;
+}
 
 /* ---- PATENTS ---- */
 .patents-grid {
