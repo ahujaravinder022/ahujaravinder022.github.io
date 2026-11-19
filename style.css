@@ -660,6 +660,32 @@ section:nth-child(even) {
   margin-top: 3px;
 }
 
+.talk-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.talk-gallery figure {
+  margin: 0;
+}
+
+.talk-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.talk-gallery figcaption {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  margin-top: 8px;
+  text-align: center;
+}
+
 /* ---- CONTACT ---- */
 .contact-grid {
   display: grid;
