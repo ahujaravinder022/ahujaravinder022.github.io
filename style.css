@@ -461,6 +461,10 @@ section:nth-child(even) {
 .badge-award { background: #fef9c3; color: #713f12; }
 .badge-granted { background: #ecfdf5; color: #065f46; }
 .badge-published { background: #eff6ff; color: #1e40af; }
+.badge-microsoft { background: #eff6ff; color: #1d4ed8; }
+.badge-openai { background: #ecfeff; color: #0e7490; }
+.badge-google { background: #fff7ed; color: #c2410c; }
+.badge-anthropic { background: #fef2f2; color: #b91c1c; }
 
 /* ---- PATENTS ---- */
 .patents-grid {
