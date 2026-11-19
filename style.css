@@ -491,6 +491,17 @@ section:nth-child(even) {
   margin-bottom: 12px;
 }
 
+.cert-logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.cert-logo-microsoft { color: #1d4ed8; }
+.cert-logo-openai { color: #0e7490; }
+.cert-logo-google { color: #c2410c; }
+.cert-logo-anthropic { color: #b91c1c; }
+
 .patent-card h3 {
   font-size: 0.95rem;
   font-weight: 700;
