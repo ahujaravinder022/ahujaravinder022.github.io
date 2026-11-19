@@ -497,10 +497,9 @@ section:nth-child(even) {
   display: block;
 }
 
-.cert-logo-microsoft { color: #1d4ed8; }
-.cert-logo-openai { color: #0e7490; }
-.cert-logo-google { color: #c2410c; }
-.cert-logo-anthropic { color: #b91c1c; }
+.cert-logo-openai { color: #0d0d0d; }
+[data-theme="dark"] .cert-logo-openai { color: #e8e8e8; }
+.cert-logo-anthropic { color: #d97757; }
 
 .patent-card h3 {
   font-size: 0.95rem;
