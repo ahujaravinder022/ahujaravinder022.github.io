@@ -653,11 +653,25 @@ section:nth-child(even) {
 }
 
 .tl-org {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 0.9rem;
   color: var(--text-medium);
   font-weight: 500;
   margin-bottom: 6px;
 }
+
+.tl-org-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.tl-org-logo-accenture { color: #a100ff; }
+.tl-org-logo-hcl { color: #0f4c91; }
 
 .tl-detail {
   font-size: 0.85rem;
